@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "hematology",
+    "title": "الدمويات (Hematology)",
+    "items": [
+      {
+        "name": "aPTT",
+        "arName": "زمن التخثر الجزئي المنشط",
+        "value": "25-50",
+        "unit": "s",
+        "note": "المجال يعتمد على الكاشف؛ العديد من المخابر الحديثة 25-35 ثا"
+      },
+      {
+        "name": "Bleeding time",
+        "arName": "زمن النزف",
+        "value": "<10",
+        "unit": "min",
+        "note": "اختبار قديم قلّ استعماله حالياً"
+      },
+      {
+        "name": "Thrombin time (TT)",
+        "arName": "زمن الثرومبين",
+        "value": "12",
+        "unit": "s",
+        "note": "المطبوع حرفياً '1 2 s' — المرجح 12 ثا؛ المجال الشائع ~14-21 ثا حسب الكاشف"
+      },
+      {
+        "name": "Prothrombin time (PT)",
+        "arName": "زمن البروثرومبين",
+        "value": "12-14",
+        "unit": "s",
+        "note": ""
+      },
+      {
+        "name": "ESR",
+        "arName": "سرعة التثفل",
+        "value": "ذكور 0-15؛ إناث 0-20",
+        "unit": "mm/h",
+        "note": ""
+      },
+      {
+        "name": "Erythropoietin",
+        "arName": "إريثروبويتين",
+        "value": "<30",
+        "unit": "mU/mL",
+        "note": ""
+      },
+      {
+        "name": "D-Dimer",
+        "arName": "دايمر D",
+        "value": "<0.5",
+        "unit": "µg/mL",
+        "note": "المعتاد حالياً <0.5 مكغ/مل بوحدات FEU"
+      },
+      {
+        "name": "Hematocrit",
+        "arName": "الهيماتوكريت",
+        "value": "ذكور 41-51؛ إناث 36-47؛ حديث الولادة <60؛ أطفال 31-43",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "Hemoglobin",
+        "arName": "الخضاب",
+        "value": "ذكور 14-17؛ إناث 12-16",
+        "unit": "g/dL",
+        "note": ""
+      },
+      {
+        "name": "LAP",
+        "arName": "الفوسفاتاز القلوية للكريات البيض",
+        "value": "15-40",
+        "unit": "mg phosphorus liberated/h per 10^10 cells",
+        "note": "تقاس حالياً كرصيد LAP score (~13-130) وليس بوحدات الفوسفور"
+      },
+      {
+        "name": "RBC count",
+        "arName": "تعداد الكريات الحمر",
+        "value": "ذكور 4.5-6.5؛ إناث 3.8-5.8",
+        "unit": "million/mm³",
+        "note": "يطبع خطأً million/ml³"
+      },
+      {
+        "name": "WBC count",
+        "arName": "تعداد الكريات البيض",
+        "value": "4000-10000",
+        "unit": "/µL",
+        "note": "تعادل 4-10 ×10⁹/L"
+      },
+      {
+        "name": "Neutrophils",
+        "arName": "العدلات",
+        "value": "40-60",
+        "unit": "%",
+        "note": "المرجع الأوسع الشائع حالياً ~40-75٪"
+      },
+      {
+        "name": "Lymphocytes",
+        "arName": "اللمفاويات",
+        "value": "22-44",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "Monocytes",
+        "arName": "الوحيدات",
+        "value": "3-9",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "Eosinophils",
+        "arName": "الحمضات",
+        "value": "0-5",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "Basophils",
+        "arName": "الأسسات",
+        "value": "0-2",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "CD4 count",
+        "arName": "لمفاويات CD4",
+        "value": "500-1400",
+        "unit": "cell/mm³",
+        "note": ""
+      },
+      {
+        "name": "MCH",
+        "arName": "متوسط خضاب الكرية",
+        "value": "28-32",
+        "unit": "pg",
+        "note": ""
+      },
+      {
+        "name": "MCHC",
+        "arName": "تركيز الخضاب الجوسي المتوسط",
+        "value": "32-36",
+        "unit": "g/dL",
+        "note": "320-360 g/L"
+      },
+      {
+        "name": "MCV",
+        "arName": "متوسط حجم الكرية",
+        "value": "80-100",
+        "unit": "fL",
+        "note": ""
+      },
+      {
+        "name": "Platelet count",
+        "arName": "الصفيحات",
+        "value": "150,000-350,000",
+        "unit": "/µL",
+        "note": "المرجع الشائع حالياً 150-400/450 ألف"
+      },
+      {
+        "name": "Reticulocyte count",
+        "arName": "الشبكيات",
+        "value": "0.5-1.5٪ من الكريات؛ 23,000-90,000",
+        "unit": "/µL",
+        "note": ""
+      },
+      {
+        "name": "Reticulocyte production index (RPI)",
+        "arName": "رصيد إنتاج الشبكيات",
+        "value": "1-2",
+        "unit": "",
+        "note": ""
+      },
+      {
+        "name": "β2-microglobulin",
+        "arName": "بيتا2-ميكروغلوبولين",
+        "value": "1.2-2.8",
+        "unit": "mg/dL",
+        "note": "الوحدة الصحيحة mg/L — يطبع خطأً mg/DL"
+      },
+      {
+        "name": "Joint fluid WBCs",
+        "arName": "كريات بيض في السائل المفصلي",
+        "value": "<200",
+        "unit": "cell/µL",
+        "note": "يطبع خطأً cell/ml"
+      },
+      {
+        "name": "RDW",
+        "arName": "عرض توزع الكريات الحمر",
+        "value": "11.5-14.5",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "HbA2",
+        "arName": "الخضاب A2",
+        "value": "1.5-3.5",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "HbF",
+        "arName": "الخضاب الجنيني",
+        "value": "<1",
+        "unit": "%",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "chemistry",
+    "title": "كيمياء الدم والبلازما والمصل",
+    "items": [
+      {
+        "name": "Albumin (serum)",
+        "arName": "الألبومين المصلي",
+        "value": "3.5-5.5",
+        "unit": "g/dL",
+        "note": "35-55 g/L"
+      },
+      {
+        "name": "Alkaline phosphatase (ALP)",
+        "arName": "الفوسفاتاز القلوية",
+        "value": "36-92",
+        "unit": "U/L",
+        "note": ""
+      },
+      {
+        "name": "α-Fetoprotein (AFP)",
+        "arName": "ألفا-فيتوبروتين",
+        "value": "0-20",
+        "unit": "ng/mL",
+        "note": "0-20 µg/L"
+      },
+      {
+        "name": "ALT",
+        "arName": "ناقلة أمين الألانين",
+        "value": "0-35",
+        "unit": "U/L",
+        "note": ""
+      },
+      {
+        "name": "AST",
+        "arName": "ناقلة أمين الأسبارتات",
+        "value": "0-35",
+        "unit": "U/L",
+        "note": ""
+      },
+      {
+        "name": "Ammonia (plasma)",
+        "arName": "الأمونيا البلازمية",
+        "value": "40-80",
+        "unit": "µg/dL",
+        "note": "23-47 µmol/L"
+      },
+      {
+        "name": "Complement C3",
+        "arName": "المتممة C3",
+        "value": "55-120",
+        "unit": "mg/dL",
+        "note": "550-1200 mg/L"
+      },
+      {
+        "name": "Creatine kinase (CK)",
+        "arName": "كرياتين كيناز",
+        "value": "30-170",
+        "unit": "U/L",
+        "note": ""
+      },
+      {
+        "name": "Creatinine",
+        "arName": "الكرياتينين",
+        "value": "0.7-1.3",
+        "unit": "mg/dL",
+        "note": "61.9-115 µmol/L"
+      },
+      {
+        "name": "Bilirubin total",
+        "arName": "البيليروبين الكلي",
+        "value": "0.3-1.2",
+        "unit": "mg/dL",
+        "note": "5.1-20.5 µmol/L"
+      },
+      {
+        "name": "Bilirubin direct",
+        "arName": "البيليروبين المباشر",
+        "value": "0-0.3",
+        "unit": "mg/dL",
+        "note": "0-5.1 µmol/L"
+      },
+      {
+        "name": "pH (arterial)",
+        "arName": "pH الدم الشرياني",
+        "value": "7.38-7.44",
+        "unit": "",
+        "note": ""
+      },
+      {
+        "name": "PCO2 (arterial)",
+        "arName": "ضغط CO2 الشرياني",
+        "value": "35-45",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "PO2 (arterial)",
+        "arName": "ضغط O2 الشرياني",
+        "value": "80-100",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "Bicarbonate (HCO3)",
+        "arName": "البيكربونات",
+        "value": "23-28",
+        "unit": "mEq/L",
+        "note": "23-28 mmol/L"
+      },
+      {
+        "name": "Oxygen saturation (SaO2)",
+        "arName": "إشباع الأكسجين",
+        "value": "95-100",
+        "unit": "%",
+        "note": "95٪ أو أكبر"
+      },
+      {
+        "name": "BUN",
+        "arName": "نتروجين يوريا الدم",
+        "value": "8-20",
+        "unit": "mg/dL",
+        "note": "2.9-7.1 mmol/L"
+      },
+      {
+        "name": "CRP",
+        "arName": "بروتين C الارتكاسي",
+        "value": "0-0.8",
+        "unit": "mg/dL",
+        "note": "0-8 mg/L"
+      },
+      {
+        "name": "CO2 content (serum)",
+        "arName": "محتوى CO2 في المصل",
+        "value": "23-28",
+        "unit": "mEq/L",
+        "note": "23-28 mmol/L"
+      },
+      {
+        "name": "Chloride",
+        "arName": "الكلور",
+        "value": "98-106",
+        "unit": "mEq/L",
+        "note": "98-106 mmol/L"
+      },
+      {
+        "name": "Cholesterol total",
+        "arName": "الكولسترول الكلي",
+        "value": "150-199",
+        "unit": "mg/dL",
+        "note": "3.88-5.15 mmol/L"
+      },
+      {
+        "name": "LDL",
+        "arName": "البروتين الشحمي منخفض الكثافة",
+        "value": "≤130",
+        "unit": "mg/dL",
+        "note": "3.36 mmol/L؛ الهدف العلاجي حالياً يعتمد على درجة الخطورة القلبية الوعائية"
+      },
+      {
+        "name": "HDL",
+        "arName": "البروتين الشحمي مرتفع الكثافة",
+        "value": "≥40",
+        "unit": "mg/dL",
+        "note": "1.04 mmol/L"
+      },
+      {
+        "name": "Triglycerides",
+        "arName": "الشحوم الثلاثية",
+        "value": "<250",
+        "unit": "mg/dL",
+        "note": "2.82 mmol/L؛ المرغوب حالياً <150 ملغ/دل و150-199 حدي"
+      },
+      {
+        "name": "VLDL",
+        "arName": "البروتين الشحمي وضيع الكثافة",
+        "value": "<30",
+        "unit": "mg/dL",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "electrolytes",
+    "title": "شوارد المصل",
+    "items": [
+      {
+        "name": "Sodium",
+        "arName": "الصوديوم",
+        "value": "136-145",
+        "unit": "mEq/L",
+        "note": "136-145 mmol/L"
+      },
+      {
+        "name": "Potassium",
+        "arName": "البوتاسيوم",
+        "value": "3.5-5.0",
+        "unit": "mEq/L",
+        "note": "3.5-5.0 mmol/L"
+      },
+      {
+        "name": "Chloride",
+        "arName": "الكلور",
+        "value": "98-106",
+        "unit": "mEq/L",
+        "note": "98-106 mmol/L"
+      },
+      {
+        "name": "Calcium total (serum)",
+        "arName": "الكالسيوم الكلي",
+        "value": "9-10.5",
+        "unit": "mg/dL",
+        "note": "2.2-2.6 mmol/L"
+      },
+      {
+        "name": "Ionized Calcium",
+        "arName": "الكالسيوم المشرد",
+        "value": "4.4-5.4",
+        "unit": "mg/dL",
+        "note": "يطبع خطأً '4.4 – 5-4' خطأً مطبعياً؛ يعادل ~1.1-1.35 mmol/L"
+      },
+      {
+        "name": "Copper",
+        "arName": "النحاس",
+        "value": "70-127",
+        "unit": "µg/dL",
+        "note": "الوحدة الصحيحة مكغ/دل"
+      },
+      {
+        "name": "Magnesium",
+        "arName": "المغنيزيوم",
+        "value": "1.5-2.4",
+        "unit": "mg/dL",
+        "note": "المرجع الشائع ~1.7-2.2 ملغ/دل"
+      },
+      {
+        "name": "Fibrinogen (plasma)",
+        "arName": "الفيبرينوجين",
+        "value": "150-350",
+        "unit": "mg/dL",
+        "note": "1.5-3.5 g/L؛ المرجع الشائع حالياً 200-400 ملغ/دل"
+      },
+      {
+        "name": "Folate (B9) red cell",
+        "arName": "الفولات في الكريات الحمر",
+        "value": "160-855",
+        "unit": "ng/mL",
+        "note": "362-1937 nmol/L"
+      },
+      {
+        "name": "Folate serum",
+        "arName": "الفولات في المصل",
+        "value": "2.5-20",
+        "unit": "ng/mL",
+        "note": "5.7-45.3 nmol/L"
+      },
+      {
+        "name": "Vitamin B12 (Cobalamin)",
+        "arName": "فيتامين B12 (كوبالامين)",
+        "value": "200-800",
+        "unit": "pg/mL",
+        "note": "148-590 pmol/L؛ يطبع خطأً Coalmine خطأً عن Cobalamin"
+      },
+      {
+        "name": "Glucose fasting (plasma)",
+        "arName": "الغلوكوز صائم",
+        "value": "70-100",
+        "unit": "mg/dL",
+        "note": "3.9-5.6 mmol/L"
+      },
+      {
+        "name": "Glucose after OGTT",
+        "arName": "الغلوكوز بعد تحمل السكر الفموي",
+        "value": "<140",
+        "unit": "mg/dL",
+        "note": ""
+      },
+      {
+        "name": "Homocysteine (plasma)",
+        "arName": "الهوموسيستئين",
+        "value": "ذكور 0.54-2.16؛ إناث 0.41-1.89",
+        "unit": "mg/L",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "immunoglobulins",
+    "title": "الغلوبولينات المناعية",
+    "items": [
+      {
+        "name": "Globulins total",
+        "arName": "الغلوبولينات الكلية",
+        "value": "2.5-3.5",
+        "unit": "g/dL",
+        "note": "25-35 g/L"
+      },
+      {
+        "name": "IgG",
+        "arName": "الغلوبولين المناعي G",
+        "value": "640-1430",
+        "unit": "mg/dL",
+        "note": ""
+      },
+      {
+        "name": "IgA",
+        "arName": "الغلوبولين المناعي A",
+        "value": "70-300",
+        "unit": "mg/dL",
+        "note": ""
+      },
+      {
+        "name": "IgM",
+        "arName": "الغلوبولين المناعي M",
+        "value": "20-140",
+        "unit": "mg/dL",
+        "note": "المرجع الشائع ~40-230 ملغ/دل"
+      },
+      {
+        "name": "IgD",
+        "arName": "الغلوبولين المناعي D",
+        "value": "<8",
+        "unit": "mg/dL",
+        "note": ""
+      },
+      {
+        "name": "IgE",
+        "arName": "الغلوبولين المناعي E",
+        "value": "0.01-0.04",
+        "unit": "mg/dL",
+        "note": "≈ 25-100 IU/mL تقريباً"
+      }
+    ]
+  },
+  {
+    "id": "iron-studies",
+    "title": "الحديد ودراساته",
+    "items": [
+      {
+        "name": "Ferritin (serum)",
+        "arName": "الفيريتين",
+        "value": "15-200",
+        "unit": "ng/mL",
+        "note": "15-200 µg/L"
+      },
+      {
+        "name": "Iron (serum)",
+        "arName": "الحديد المصلي",
+        "value": "60-160",
+        "unit": "µg/dL",
+        "note": "11-29 µmol/L"
+      },
+      {
+        "name": "TIBC",
+        "arName": "السعة الكلية لربط الحديد",
+        "value": "250-460",
+        "unit": "µg/dL",
+        "note": "45-82 µmol/L"
+      },
+      {
+        "name": "Transferrin (serum)",
+        "arName": "الترانسفيرين",
+        "value": "230-390",
+        "unit": "mg/dL",
+        "note": ""
+      },
+      {
+        "name": "Transferrin saturation",
+        "arName": "إشباع الترانسفيرين",
+        "value": "20-50",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "LDH",
+        "arName": "نازعة هيدروجين اللبنات",
+        "value": "60-100",
+        "unit": "U/L",
+        "note": "أدنى بكثير من المراجع الحديثة (~120-280 وحدة/ل حسب الفحص) — تحقق من مرجع المخبر"
+      },
+      {
+        "name": "Lactic acid (venous)",
+        "arName": "حمض اللبن الوريدي",
+        "value": "6-16",
+        "unit": "mg/dL",
+        "note": "0.67-1.8 mmol/L"
+      },
+      {
+        "name": "Methylmalonic acid",
+        "arName": "حمض الميثيل مالونيك",
+        "value": "150-370",
+        "unit": "nmol/L",
+        "note": ""
+      },
+      {
+        "name": "VMA (urine)",
+        "arName": "حمض الفانيليل مندليك في البول",
+        "value": "<8",
+        "unit": "mg/24h",
+        "note": "40.4 µmol/24h"
+      },
+      {
+        "name": "Osmolality (plasma)",
+        "arName": "أوسمولالية البلازما",
+        "value": "275-295",
+        "unit": "mOsm/kg H2O",
+        "note": ""
+      },
+      {
+        "name": "Alkaline phosphatase (serum)",
+        "arName": "الفوسفاتاز القلوية ",
+        "value": "36-92",
+        "unit": "U/L",
+        "note": "مذكورة أيضاً ضمن كيمياء الدم"
+      },
+      {
+        "name": "Phosphorus (serum)",
+        "arName": "الفوسفور",
+        "value": "3-4.5",
+        "unit": "mg/dL",
+        "note": "0.97-1.45 mmol/L"
+      },
+      {
+        "name": "PSA",
+        "arName": "المستضد البروستاتي النوعي",
+        "value": "<4",
+        "unit": "ng/mL",
+        "note": "4 µg/L"
+      }
+    ]
+  },
+  {
+    "id": "proteins",
+    "title": "البروتينات في المصل",
+    "items": [
+      {
+        "name": "Total protein",
+        "arName": "البروتين الكلي",
+        "value": "6.0-7.8",
+        "unit": "g/dL",
+        "note": "60-78 g/L"
+      },
+      {
+        "name": "Albumin",
+        "arName": "الألبومين",
+        "value": "3.5-5.5",
+        "unit": "g/dL",
+        "note": "35-55 g/L"
+      },
+      {
+        "name": "Globulins total",
+        "arName": "الغلوبولينات الكلية",
+        "value": "2.5-3.5",
+        "unit": "g/dL",
+        "note": "25-35 g/L"
+      },
+      {
+        "name": "Ceruloplasmin",
+        "arName": "السيرولوبلازمين",
+        "value": "20-45",
+        "unit": "mg/dL",
+        "note": "يطبع خطأً Seroplasmin خطأً مطبعياً"
+      },
+      {
+        "name": "Haptoglobin",
+        "arName": "الهابتوغلوبين",
+        "value": "50-150",
+        "unit": "mg/dL",
+        "note": "500-1500 mg/L؛ المرجع الشائع ~30-200 ملغ/دل"
+      },
+      {
+        "name": "Rheumatoid factor (RF)",
+        "arName": "العامل الرثياني",
+        "value": "<40",
+        "unit": "U/mL",
+        "note": "40 kU/L؛ الحد الأعلى الشائع حالياً <14-20 وحدة دولية/مل"
+      },
+      {
+        "name": "Troponin I",
+        "arName": "التروبونين I",
+        "value": "0-0.5",
+        "unit": "ng/mL",
+        "note": "قيمة قديمة — فحوص hs-cTnI الحديثة حد الـ99 ~0.01-0.04 نغ/مل حسب الجهاز"
+      },
+      {
+        "name": "Troponin T",
+        "arName": "التروبونين T",
+        "value": "0-0.10",
+        "unit": "ng/mL",
+        "note": "قيمة قديمة — hs-cTnT حد الـ99 ~14 نغ/ل (0.014 نغ/مل)"
+      },
+      {
+        "name": "Uric acid (serum)",
+        "arName": "حمض البول",
+        "value": "2.5-8",
+        "unit": "mg/dL",
+        "note": "0.15-0.47 mmol/L"
+      },
+      {
+        "name": "SAAG",
+        "arName": "الغراديان مصل-أسكيتي للألبومين",
+        "value": "1.1",
+        "unit": "g/dL",
+        "note": "SAAG ≥1.1 غ/دل يشير إلى فرط ضغط الباب"
+      }
+    ]
+  },
+  {
+    "id": "endocrine",
+    "title": "الغدد الصم (Endocrine)",
+    "items": [
+      {
+        "name": "ACTH",
+        "arName": "الهرمون القشري الكظري",
+        "value": "9-52",
+        "unit": "pg/mL",
+        "note": "2-11 pmol/L"
+      },
+      {
+        "name": "Epinephrine (plasma, supine)",
+        "arName": "الأدرينالين البلازمي (استلقاء)",
+        "value": "<75",
+        "unit": "ng/L",
+        "note": "410 pmol/L"
+      },
+      {
+        "name": "Norepinephrine (plasma, supine)",
+        "arName": "النورأدرينالين البلازمي (استلقاء)",
+        "value": "50-440",
+        "unit": "ng/L",
+        "note": "296-2600 pmol/L"
+      },
+      {
+        "name": "Catecholamines (urine 24h)",
+        "arName": "الكاتيكولامينات في بول 24 سا",
+        "value": "<100",
+        "unit": "µg/24h",
+        "note": "يطبع خطأً µg/m per h"
+      },
+      {
+        "name": "Free cortisol (urine)",
+        "arName": "الكورتيزول الحر البولي",
+        "value": "<50",
+        "unit": "µg/24h",
+        "note": "139 nmol/24h"
+      },
+      {
+        "name": "Calcitonin",
+        "arName": "الكالسيتونين",
+        "value": "<80",
+        "unit": "pg/mL",
+        "note": "المرجع الحديث أدنى (~<8-18 بيكوغرام/مل حسب الجنس والفحص)"
+      },
+      {
+        "name": "DHEA-S",
+        "arName": "كبريتات ديهيدرو إيبي أندروستيرون",
+        "value": "ذكور 1.3-5.5؛ إناث 0.6-3.3",
+        "unit": "µg/mL",
+        "note": ""
+      },
+      {
+        "name": "Estradiol (serum)",
+        "arName": "الإستراديول",
+        "value": "ذكور 10-30؛ إناث: أيام 1-10 ← 14-27، أيام 11-20 ← 14-54، أيام 21-30 ← 19-41",
+        "unit": "pg/mL",
+        "note": "ذكور: 37-110 pmol/L"
+      },
+      {
+        "name": "FSH",
+        "arName": "الهرمون المحفز للجريب",
+        "value": "ذكور بالغون 5-15؛ إناث: جريبي/أصفري 5-20، ذروة منتصف الدورة 30-50، بعد سن اليأس >35",
+        "unit": "mU/mL",
+        "note": ""
+      },
+      {
+        "name": "LH",
+        "arName": "الهرمون الملوتن",
+        "value": "ذكور 3-15؛ إناث: جريبي/أصفري 5-22، ذروة منتصف الدورة 30-250، بعد سن اليأس >30",
+        "unit": "mU/mL",
+        "note": "3-15 U/L؛ سطرا 'midcycle peak 30-250 / postmenopausal >30' طُبعا ضمن خانة GH خطأً — أُسندا هنا إلى LH"
+      },
+      {
+        "name": "Growth hormone (GH)",
+        "arName": "هرمون النمو",
+        "value": "بعد الغلوكوز الفموي <2؛ الاستجابة للمنبهات الاستنهاضية >7",
+        "unit": "ng/mL",
+        "note": ""
+      },
+      {
+        "name": "PTH",
+        "arName": "الهرمون جار الدرقي",
+        "value": "10-65",
+        "unit": "pg/mL",
+        "note": ""
+      },
+      {
+        "name": "Prolactin",
+        "arName": "البرولاكتين",
+        "value": "ذكور <15؛ إناث <20",
+        "unit": "ng/mL",
+        "note": ""
+      },
+      {
+        "name": "Testosterone",
+        "arName": "التستوستيرون",
+        "value": "ذكور 300-1200؛ إناث 20-75",
+        "unit": "ng/dL",
+        "note": ""
+      },
+      {
+        "name": "TSH",
+        "arName": "الهرمون المحفز للدرق",
+        "value": "0.5-5.0",
+        "unit": "µU/mL",
+        "note": "المرجع الشائع حالياً ~0.4-4.5"
+      },
+      {
+        "name": "Thyroxine T4 total",
+        "arName": "الثيروكسين الكلي",
+        "value": "5-12",
+        "unit": "µg/dL",
+        "note": "64-155 nmol/L"
+      },
+      {
+        "name": "Free T4",
+        "arName": "الثيروكسين الحر",
+        "value": "0.9-2.4",
+        "unit": "ng/dL",
+        "note": "12-31 pmol/L"
+      },
+      {
+        "name": "Free T3",
+        "arName": "T3 الحر",
+        "value": "3.6-5.6",
+        "unit": "ng/L",
+        "note": "5.6-8.6 pmol/L"
+      },
+      {
+        "name": "T3 resin uptake",
+        "arName": "امتصاص الراتنج T3",
+        "value": "25-35",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "T3 (serum)",
+        "arName": "ثلاثي يود الثيرونين",
+        "value": "70-195",
+        "unit": "ng/dL",
+        "note": "1.1-3.0 nmol/L"
+      },
+      {
+        "name": "1,25-dihydroxy Vitamin D",
+        "arName": "فيتامين D ثنائي الهيدروكسيل 1,25",
+        "value": "25-65",
+        "unit": "pg/mL",
+        "note": "60-156 pmol/L"
+      },
+      {
+        "name": "25-hydroxy Vitamin D",
+        "arName": "فيتامين D 25-هيدروكسي",
+        "value": "15-80",
+        "unit": "ng/mL",
+        "note": "37-200 nmol/L"
+      },
+      {
+        "name": "Insulin",
+        "arName": "الأنسولين",
+        "value": "6-35",
+        "unit": "µU/mL",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "urine",
+    "title": "البول (Urine)",
+    "items": [
+      {
+        "name": "Albumin-creatinine ratio",
+        "arName": "نسبة ألبومين/كرياتينين",
+        "value": "<30",
+        "unit": "mg/g",
+        "note": ""
+      },
+      {
+        "name": "Protein-creatinine ratio",
+        "arName": "نسبة بروتين/كرياتينين",
+        "value": "≤0.2",
+        "unit": "mg/mg",
+        "note": ""
+      },
+      {
+        "name": "Creatinine (urine)",
+        "arName": "الكرياتينين البولي",
+        "value": "15-25",
+        "unit": "mg/kg/24h",
+        "note": "يطبع خطأً mmol/kg/24h جانباً"
+      },
+      {
+        "name": "Creatinine clearance",
+        "arName": "تصفية الكرياتينين",
+        "value": "90-130",
+        "unit": "mL/min",
+        "note": ""
+      },
+      {
+        "name": "Calcium (urine)",
+        "arName": "الكالسيوم البولي",
+        "value": "100-300",
+        "unit": "mg/24h",
+        "note": "2.5-7.5 mmol/24h على حمية غير مقيدة"
+      },
+      {
+        "name": "5-HIAA",
+        "arName": "حمض 5-هيدروكسي إندول الأسيتيك",
+        "value": "2-9",
+        "unit": "mg/24h",
+        "note": "10.4-46.8 µmol/24h"
+      },
+      {
+        "name": "Sodium (urine)",
+        "arName": "الصوديوم البولي",
+        "value": "100-260",
+        "unit": "mEq/24h",
+        "note": "يتفاوت مع المدخول"
+      },
+      {
+        "name": "Potassium (urine)",
+        "arName": "البوتاسيوم البولي",
+        "value": "35-90",
+        "unit": "mEq/24h",
+        "note": ""
+      },
+      {
+        "name": "Uric acid (urine)",
+        "arName": "حمض البول في البول",
+        "value": "250-750",
+        "unit": "mg/24h",
+        "note": "1.48-4.43 mmol/24h؛ يتفاوت مع الحمية"
+      },
+      {
+        "name": "Urea nitrogen (urine)",
+        "arName": "نتروجين اليوريا البولي",
+        "value": "12-24",
+        "unit": "g/24h",
+        "note": ""
+      },
+      {
+        "name": "pH (urine)",
+        "arName": "pH البول",
+        "value": "4.6-8",
+        "unit": "",
+        "note": ""
+      },
+      {
+        "name": "Specific gravity",
+        "arName": "الوزن النوعي للبول",
+        "value": "1.030-1.101",
+        "unit": "",
+        "note": "القيمة المطبوعة غير منطقية — المرجح 1.003-1.030"
+      },
+      {
+        "name": "Osmolality (urine)",
+        "arName": "أوسمولالية البول",
+        "value": "50-1200",
+        "unit": "mOsm/kg H2O",
+        "note": ""
+      },
+      {
+        "name": "GFR",
+        "arName": "معدل الرشاحة الكبيبية",
+        "value": "ذكور 130؛ إناث 120",
+        "unit": "mL/min/1.73m²",
+        "note": ""
+      },
+      {
+        "name": "RBCs (urine)",
+        "arName": "كريات حمر في البول",
+        "value": "<4",
+        "unit": "/HPF",
+        "note": "في الحقل المجهري"
+      }
+    ]
+  },
+  {
+    "id": "ckd-stages",
+    "title": "مراحل الداء الكلوي المزمن (CKD stages)",
+    "items": [
+      {
+        "name": "Stage 1",
+        "arName": "المرحلة 1",
+        "value": "≥90",
+        "unit": "mL/min/1.73m²",
+        "note": ""
+      },
+      {
+        "name": "Stage 2",
+        "arName": "المرحلة 2",
+        "value": "60-89",
+        "unit": "mL/min/1.73m²",
+        "note": ""
+      },
+      {
+        "name": "Stage 3",
+        "arName": "المرحلة 3",
+        "value": "30-59",
+        "unit": "mL/min/1.73m²",
+        "note": ""
+      },
+      {
+        "name": "Stage 4",
+        "arName": "المرحلة 4",
+        "value": "15-29",
+        "unit": "mL/min/1.73m²",
+        "note": ""
+      },
+      {
+        "name": "Stage 5",
+        "arName": "المرحلة 5",
+        "value": "<15",
+        "unit": "mL/min/1.73m²",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "gastrointestinal",
+    "title": "الهضمية (Gastrointestinal)",
+    "items": [
+      {
+        "name": "Gastrin (serum)",
+        "arName": "الغاسترين",
+        "value": "0-180",
+        "unit": "pg/mL",
+        "note": ""
+      },
+      {
+        "name": "Stool fat",
+        "arName": "الشحم البرازي",
+        "value": "<5",
+        "unit": "g/24h",
+        "note": "على حمية تحوي 100 غ شحم"
+      },
+      {
+        "name": "Stool weight",
+        "arName": "وزن البراز",
+        "value": "<200",
+        "unit": "g/24h",
+        "note": ""
+      },
+      {
+        "name": "Amylase (serum)",
+        "arName": "الأميلاز المصلي",
+        "value": "0-130",
+        "unit": "U/L",
+        "note": ""
+      },
+      {
+        "name": "Anti-gliadin (AGA)",
+        "arName": "أضداد الغليادين",
+        "value": "<25",
+        "unit": "U/L",
+        "note": "حالياً تُفضل أضداد tTG-IgA لتشخيص الداء الزلاقي"
+      },
+      {
+        "name": "Gastric pH",
+        "arName": "pH المعدة",
+        "value": "1.5-3.5",
+        "unit": "",
+        "note": ""
+      },
+      {
+        "name": "Lipase (serum)",
+        "arName": "الليباز المصلي",
+        "value": "<95",
+        "unit": "U/L",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "pulmonary",
+    "title": "الرئوية (Pulmonary)",
+    "items": [
+      {
+        "name": "FEV1",
+        "arName": "الحجم الزفيري القسري بالثانية الأولى",
+        "value": ">80٪ من المتوقع",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "FVC",
+        "arName": "السعة الحيوية القسرية",
+        "value": ">80٪ من المتوقع",
+        "unit": "%",
+        "note": ""
+      },
+      {
+        "name": "FEV1/FVC",
+        "arName": "نسبة FEV1/FVC",
+        "value": ">75",
+        "unit": "%",
+        "note": "حالياً تُقيّم مقابل الحد الأدنى الطبيعي LLN"
+      },
+      {
+        "name": "Anion gap",
+        "arName": "الفجوة الأنيونية",
+        "value": "8-16",
+        "unit": "mEq/L",
+        "note": "المرجع الشائع حالياً 8-12 مكافئ/ل دون البوتاسيوم"
+      }
+    ]
+  },
+  {
+    "id": "csf",
+    "title": "السائل الدماغي الشوكي (CSF)",
+    "items": [
+      {
+        "name": "Cell count",
+        "arName": "تعداد الخلايا",
+        "value": "0-5",
+        "unit": "/µL",
+        "note": ""
+      },
+      {
+        "name": "Glucose",
+        "arName": "الغلوكوز",
+        "value": "40-80",
+        "unit": "mg/dL",
+        "note": ""
+      },
+      {
+        "name": "Opening pressure",
+        "arName": "ضغط الفتح",
+        "value": "70-200",
+        "unit": "mm H2O",
+        "note": "7-15 mmHg"
+      },
+      {
+        "name": "Protein",
+        "arName": "البروتين",
+        "value": "15-60",
+        "unit": "mg/dL",
+        "note": ""
+      },
+      {
+        "name": "Chloride",
+        "arName": "الكلور",
+        "value": "118-132",
+        "unit": "mEq/L",
+        "note": ""
+      },
+      {
+        "name": "CSF IgG index",
+        "arName": "رصيد IgG في CSF",
+        "value": "0.29-0.59",
+        "unit": "",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "hemodynamic",
+    "title": "القياسات الدموية الوعائية (Hemodynamic)",
+    "items": [
+      {
+        "name": "Cardiac index",
+        "arName": "المؤشر القلبي",
+        "value": "2.5-4.2",
+        "unit": "L/min/m²",
+        "note": ""
+      },
+      {
+        "name": "LVEF",
+        "arName": "الكسر القذفي للبطين الأيسر",
+        "value": ">55",
+        "unit": "%",
+        "note": "55-78٪"
+      },
+      {
+        "name": "Pulmonary artery systolic",
+        "arName": "الشريان الرئوي — انقباضي",
+        "value": "20-25",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "Pulmonary artery diastolic",
+        "arName": "الشريان الرئوي — انبساطي",
+        "value": "5-10",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "Pulmonary artery mean",
+        "arName": "الشريان الرئوي — متوسط",
+        "value": "9-16",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "PCWP",
+        "arName": "ضغط الإسفين الشعري الرئوي",
+        "value": "6-12",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "Right atrial mean",
+        "arName": "الأذينة اليمنى — متوسط",
+        "value": "0-5",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "Right ventricular systolic",
+        "arName": "البطين الأيمن — انقباضي",
+        "value": "20-25",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "Right ventricular diastolic",
+        "arName": "البطين الأيمن — انبساطي",
+        "value": "0-5",
+        "unit": "mmHg",
+        "note": ""
+      },
+      {
+        "name": "Cardiac output",
+        "arName": "النتاج القلبي",
+        "value": "4-5",
+        "unit": "L/min",
+        "note": ""
+      },
+      {
+        "name": "End-systolic volume",
+        "arName": "حجم نهاية الانقباض",
+        "value": "50",
+        "unit": "mL",
+        "note": ""
+      },
+      {
+        "name": "Stroke volume",
+        "arName": "الحجم الضربي",
+        "value": "60-100",
+        "unit": "mL",
+        "note": ""
+      }
+    ]
+  }
+]

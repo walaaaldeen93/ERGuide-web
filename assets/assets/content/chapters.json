@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cardiac",
+    "order": 1,
+    "title": "الإسعافات القلبية",
+    "author": "",
+    "icon": "heart",
+    "color": "#D32F2F"
+  },
+  {
+    "id": "neuro",
+    "order": 2,
+    "title": "الإسعافات العصبية",
+    "author": "",
+    "icon": "brain",
+    "color": "#7B1FA2"
+  },
+  {
+    "id": "renal",
+    "order": 3,
+    "title": "الإسعافات الكلوية",
+    "author": "",
+    "icon": "kidney",
+    "color": "#F57C00"
+  },
+  {
+    "id": "endocrine",
+    "order": 4,
+    "title": "الإسعافات الغدية",
+    "author": "",
+    "icon": "hormone",
+    "color": "#00897B"
+  },
+  {
+    "id": "respiratory",
+    "order": 5,
+    "title": "الإسعافات الصدرية",
+    "author": "",
+    "icon": "lungs",
+    "color": "#1976D2"
+  },
+  {
+    "id": "gi",
+    "order": 6,
+    "title": "الإسعافات الهضمية",
+    "author": "",
+    "icon": "stomach",
+    "color": "#8D6E63"
+  },
+  {
+    "id": "heme",
+    "order": 7,
+    "title": "الإسعافات الدموية",
+    "author": "",
+    "icon": "blood",
+    "color": "#C2185B"
+  },
+  {
+    "id": "rheum",
+    "order": 8,
+    "title": "الإسعافات المفصلية",
+    "author": "",
+    "icon": "bone",
+    "color": "#5D4037"
+  },
+  {
+    "id": "other",
+    "order": 9,
+    "title": "قضايا أخرى إسعافية",
+    "author": "",
+    "icon": "alert",
+    "color": "#E64A19"
+  },
+  {
+    "id": "drugs",
+    "order": 10,
+    "title": "أدوية إسعافية",
+    "author": "",
+    "icon": "pill",
+    "color": "#388E3C"
+  },
+  {
+    "id": "labs",
+    "order": 11,
+    "title": "أهم القيم المخبرية",
+    "author": "",
+    "icon": "flask",
+    "color": "#455A64"
+  }
+]
